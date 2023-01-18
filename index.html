@@ -9,12 +9,15 @@
     <title>Document</title>
   </head>
   <body class="bg-gray-200">
-    <div class="flex flex-row">
+    <!-- <div class="flex flex-row"> -->
       <!-- conflict: should i use grid or flex? -->
-      <div class="grid grid-cols-4 gap-3">
-        <div>
-          <h1 class="text-pink-500 font-bold">Test</h1>
+      <!-- container -->
+      <div class="grid grid-row-4 gap-4 mt-4 ml-3 mr-4">
+        <!-- one/first grid element -->
+        <div class="text-pink-500 font-bold text-center">
+          <h1>Test</h1>
         </div>
+        <!-- card 1 -->
         <div
           class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
         >
@@ -41,6 +44,7 @@
             </div>
           </div>
         </div>
+        <!-- card 2 -->
         <div
           class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
         >
@@ -67,6 +71,7 @@
             </div>
           </div>
         </div>
+        <!-- card 3 -->
         <div
           class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
         >
@@ -94,6 +99,66 @@
           </div>
         </div>
       </div>
-    </div>
+      <!-- Container 2 -->
+      <div class="grid grid-row-4 gap-4 mt-4 ml-3 mr-4">
+        <!-- grid first element -->
+        <div class="text-pink-500 font-bold text-center">
+          <h1>Test</h1>
+        </div>
+        <!-- card 1 -->
+        <div
+          class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+        >
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <img
+                class="h-48 w-full object-cover md:h-full md:w-48"
+                src="/img/City.jpg"
+                alt="Skycrapers from below"
+              />
+            </div>
+            <div class="p-8">
+              <div
+                class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+              >
+                Stuff
+              </div>
+              <a
+                href="#"
+                class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                >Link to other stuff</a
+              >
+              <p class="mt-2 text-slate-500">Paragraph to explain some stuff</p>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div
+          class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+        >
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <img
+                class="h-48 w-full object-cover md:h-full md:w-48"
+                src="/img/City.jpg"
+                alt="Skycrapers from below"
+              />
+            </div>
+            <div class="p-8">
+              <div
+                class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+              >
+                Stuff
+              </div>
+              <a
+                href="#"
+                class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                >Link to other stuff</a
+              >
+              <p class="mt-2 text-slate-500">Paragraph to explain some stuff</p>
+            </div>
+          </div>
+        </div>
+    <!-- </div> -->
   </body>
 </html>
